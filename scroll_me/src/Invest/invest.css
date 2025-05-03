@@ -1,0 +1,173 @@
+/* .up{
+    justify-content: center;
+    align-items:center;
+    display: grid;
+   
+   
+} */
+
+@media (max-width: 768px) {
+    .up {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .up {
+      grid-template-columns: 1fr;
+    }
+  }
+/* .Invest h1{
+    margin-left: 180px;
+    padding-top: 60px;
+}
+
+.Invest h3{
+    margin-left: 40px;
+} */
+
+.i-l-first{
+    border: 1px solid  rgb(65, 87, 212);
+    border-radius: 20%;
+
+}
+
+.i-l-second{
+    border: 1px solid  rgb(65, 87, 212);
+    padding-right: 10px;
+    border-radius: 20%;
+    
+}
+/* .i-left{
+    width: fit-content;
+    
+} */
+.Invest{
+    display: flex;
+   
+}
+/* .i-left{
+    padding-top: 350px;
+} */
+
+.i-r-first{
+    border: 1px solid  rgb(65, 87, 212) ;
+    border-radius: 20%;
+
+}
+
+.i-r-second{
+    border: 1px solid rgb(65, 87, 212) ;
+    padding-right: 10px;
+    border-radius: 20%;
+}
+
+.i-right{
+    padding-top: 390px;
+    padding-left: 50px;
+}
+/* .logo-one{
+    height: 60px;
+    margin-top:15px ;
+    margin-bottom: -20px;
+    border-radius: 30%;
+    margin-left: 10px;
+   
+}
+.logo-two{
+    height: 60px;
+    margin-top:15px ;
+    margin-bottom: -20px;
+    border-radius: 50%;
+    margin-left: 10px;
+   
+}
+.logo-three{
+    height: 60px;
+    margin-top:15px ;
+    margin-bottom: -20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.logo-four{
+    height: 60px;
+    margin-top:15px ;
+    margin-bottom: -20px;
+    border-radius: 50%;
+    margin-left: 10px;
+} */
+
+/* .ques{
+    height:600px;
+    width: 600px;
+   margin-left: -50px;
+   margin-right: 70px;
+} */
+
+.Invest {
+
+    display: flex;
+  flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    flex-direction: row;
+  }
+
+  .up {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  @media (max-width: 992px) {
+    .up {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .up {
+        width: 100%;
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 10px;
+    }
+  }
+
+  .ques {
+    
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .logo-one,
+.logo-two,
+.logo-three,
+.logo-four {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15px 10px -20px;
+}
+
+.Invest h1, .Invest h3 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  
+  .i-left, .i-right {
+    flex: 1 1 500px;
+    padding-top: 50px;
+  }
+  

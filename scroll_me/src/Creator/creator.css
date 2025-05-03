@@ -1,0 +1,48 @@
+.dead{
+    background-image: url(https://i.pinimg.com/736x/a0/b0/6f/a0b06f7b2e17ce6ee6ac0d9089e8cd7d.jpg);
+    height: 250px;
+    width: 1000px;
+    padding-left: 400px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.dead h1{
+    
+    padding-top: 50px;
+}
+.photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 5px solid rgb(20, 110, 175);
+    
+}
+.total{
+    display: flex;
+    gap: 60px;
+}
+
+.name{
+    padding-left: 90px;
+}
+.position{
+    padding-left: 140px;
+}
+.name-one{
+    padding-left: 120px;
+}
+.link{
+    padding-left: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(56, 94, 152);
+}
+
+.air{
+    
+    padding-left: 50px;
+    font-size: 40px;
+    background-image: url(https://i.pinimg.com/736x/f0/b6/79/f0b6793713b3e557ec71b3a7912fe123.jpg);
+    padding-top: 0px;
+    margin-top: 90px;
+}

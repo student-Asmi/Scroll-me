@@ -1,0 +1,47 @@
+.contain{
+    padding-top: 120px;
+    display: flex;
+}
+.g-top h1{
+   padding-left: 400px;
+   font-size: 60px;
+   padding-top: 150px;
+   margin-bottom: -70px;
+   
+}
+
+.g-right{
+    padding-top: 200px;
+    /* display: grid; */
+    gap: 30px;
+    font-weight: 500;
+    
+}
+.graph-img{
+    height: 900px;
+    width:900px;
+    border-radius: 100%;
+}
+.contain{
+    display: flex;
+    gap: 50px;
+}
+
+.fund{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/736x/e5/d4/b7/e5d4b7e4679c351c4cb432ad045b5f01.jpg);
+    width: 100%;
+    height: 350px;
+   
+    
+    
+}
+
+.fund p{
+    font-size: 15px;
+    font-weight: 800;
+}
